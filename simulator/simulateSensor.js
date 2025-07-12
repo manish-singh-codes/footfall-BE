@@ -22,4 +22,4 @@ async function sendData(sensor_id) {
 setInterval(() => {
   sendData('sensor1');
   sendData('sensor2');
-}, 5000);  // 1 hour (for testing, you can reduce to 5 seconds initially)
+}, 3600000);  
